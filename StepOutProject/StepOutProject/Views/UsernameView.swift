@@ -10,12 +10,14 @@ import SwiftUI
 struct UsernameView: View {
     
     @State private var textfieldText: String = ""
+    @StateObject private var keyboardHandler = KeyboardHandler()
+
     
     var body: some View {
         
         ZStack{
             
-                Color("Sfondo")
+            LinearGradient(gradient: Gradient(colors: [Color("SfondoGradiente1"), Color("SfondoGradiente2")]), startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
                 Image("Welcome")
                     .padding(.bottom, 100.0)
@@ -50,7 +52,7 @@ struct UsernameView: View {
                     .submitLabel(.go)
                 
                 
-            }
+            }.padding(.bottom, keyboardHandler.keyboardHeight)
            
 
     }
