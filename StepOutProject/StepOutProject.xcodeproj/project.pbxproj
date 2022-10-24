@@ -56,10 +56,8 @@
 		25169B00290684C500620779 /* StepOutProject */ = {
 			isa = PBXGroup;
 			children = (
-				25169B122906857300620779 /* UsernameView.swift */,
-				25169B10290684EC00620779 /* WelcomeView.swift */,
 				25169B01290684C500620779 /* StepOutProjectApp.swift */,
-				25169B03290684C500620779 /* ContentView.swift */,
+				2A38388F2906861200CFA67C /* Views */,
 				25169B05290684C500620779 /* Assets.xcassets */,
 				25169B07290684C500620779 /* StepOutProject.entitlements */,
 				25169B08290684C500620779 /* Preview Content */,
@@ -73,6 +71,16 @@
 				25169B09290684C500620779 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A38388F2906861200CFA67C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25169B10290684EC00620779 /* WelcomeView.swift */,
+				25169B122906857300620779 /* UsernameView.swift */,
+				25169B03290684C500620779 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
