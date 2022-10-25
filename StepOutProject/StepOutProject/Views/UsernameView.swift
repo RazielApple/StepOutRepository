@@ -19,7 +19,7 @@ struct UsernameView: View {
             
             LinearGradient(gradient: Gradient(colors: [Color("SfondoGradiente1"), Color("SfondoGradiente2")]), startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
-                Image("Welcome")
+                Image("SquaresInBackground-04")
                     .padding(.bottom, 100.0)
                
             VStack {
