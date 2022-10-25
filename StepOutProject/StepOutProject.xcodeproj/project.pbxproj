@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1511C02A2906CCDE001FB3C1 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C0292906CCDE001FB3C1 /* Classes.swift */; };
+		1511C02C2906E7C8001FB3C1 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C02B2906E7C8001FB3C1 /* CharacterView.swift */; };
 		25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B01290684C500620779 /* StepOutProjectApp.swift */; };
 		25169B04290684C500620779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B03290684C500620779 /* ContentView.swift */; };
 		25169B06290684C500620779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B05290684C500620779 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1511C0292906CCDE001FB3C1 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		1511C02B2906E7C8001FB3C1 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		25169AFE290684C500620779 /* StepOutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepOutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25169B01290684C500620779 /* StepOutProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOutProjectApp.swift; sourceTree = "<group>"; };
 		25169B03290684C500620779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1511C0282906CCC0001FB3C1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1511C0292906CCDE001FB3C1 /* Classes.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		25169AF5290684C500620779 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		25169B00290684C500620779 /* StepOutProject */ = {
 			isa = PBXGroup;
 			children = (
+				1511C0282906CCC0001FB3C1 /* models */,
 				25169B01290684C500620779 /* StepOutProjectApp.swift */,
 				2A38388F2906861200CFA67C /* Views */,
 				25169B05290684C500620779 /* Assets.xcassets */,
@@ -78,6 +91,7 @@
 			children = (
 				25169B10290684EC00620779 /* WelcomeView.swift */,
 				25169B122906857300620779 /* UsernameView.swift */,
+				1511C02B2906E7C8001FB3C1 /* CharacterView.swift */,
 				25169B03290684C500620779 /* ContentView.swift */,
 			);
 			path = Views;
@@ -153,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1511C02C2906E7C8001FB3C1 /* CharacterView.swift in Sources */,
 				25169B132906857300620779 /* UsernameView.swift in Sources */,
 				25169B04290684C500620779 /* ContentView.swift in Sources */,
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,
+				1511C02A2906CCDE001FB3C1 /* Classes.swift in Sources */,
 				25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
