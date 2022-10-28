@@ -8,16 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //@State private var isLoading = false
     var body: some View {
         VStack {
-            TabView{
-                
-                Text("Hello, world!")
-                Text("Hello")
-                Text("World")
-            }.tabViewStyle(.page)
-                .indexViewStyle(.page(backgroundDisplayMode: .always))
-        }.padding()
+            
+            
+            Text("Hello, world!")
+            
+            /* if isLoading{
+             SsLoadingView ()
+             }
+             
+             }.padding()
+             .onAppear{ startFakeNetworkCall()}
+             }
+             func startFakeNetworkCall (){
+             isLoading = true
+             DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: <#@MainActor @convention(block) () -> Void#>)
+             isLoading = false
+             }*/
+        }
     }
 }
 
