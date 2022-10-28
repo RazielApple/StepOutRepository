@@ -21,6 +21,7 @@
 		25169B0A290684C500620779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B09290684C500620779 /* Preview Assets.xcassets */; };
 		25169B11290684EC00620779 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B10290684EC00620779 /* WelcomeView.swift */; };
 		25169B132906857300620779 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B122906857300620779 /* UsernameView.swift */; };
+		DD56594A290AA1C900AF98B9 /* ShapeShifterLoadingVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD565949290AA1C900AF98B9 /* ShapeShifterLoadingVew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		25169B09290684C500620779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25169B10290684EC00620779 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		25169B122906857300620779 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		DD565949290AA1C900AF98B9 /* ShapeShifterLoadingVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShifterLoadingVew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		2A38388F2906861200CFA67C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DD565953290B10B300AF98B9 /* ContainerGif */,
 				25169B10290684EC00620779 /* WelcomeView.swift */,
 				25169B122906857300620779 /* UsernameView.swift */,
 				1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */,
@@ -111,8 +114,16 @@
 				15912D9D2908786E00CC57B1 /* OratorView.swift */,
 				15912D9F2908788300CC57B1 /* CompanionView.swift */,
 				15912DA12908789A00CC57B1 /* ShapeshifterView.swift */,
+				DD565949290AA1C900AF98B9 /* ShapeShifterLoadingVew.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DD565953290B10B300AF98B9 /* ContainerGif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContainerGif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD56594A290AA1C900AF98B9 /* ShapeShifterLoadingVew.swift in Sources */,
 				1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */,
 				15912DA02908788300CC57B1 /* CompanionView.swift in Sources */,
 				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
