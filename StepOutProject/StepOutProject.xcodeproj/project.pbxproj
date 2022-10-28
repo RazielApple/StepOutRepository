@@ -16,11 +16,13 @@
 		15912DA02908788300CC57B1 /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9F2908788300CC57B1 /* CompanionView.swift */; };
 		15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912DA12908789A00CC57B1 /* ShapeshifterView.swift */; };
 		25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B01290684C500620779 /* StepOutProjectApp.swift */; };
-		25169B04290684C500620779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B03290684C500620779 /* ContentView.swift */; };
 		25169B06290684C500620779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B05290684C500620779 /* Assets.xcassets */; };
 		25169B0A290684C500620779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B09290684C500620779 /* Preview Assets.xcassets */; };
 		25169B11290684EC00620779 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B10290684EC00620779 /* WelcomeView.swift */; };
 		25169B132906857300620779 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B122906857300620779 /* UsernameView.swift */; };
+		2AA2F88D29092F59006EF7EE /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F88C29092F59006EF7EE /* Challenge.swift */; };
+		2AA2F88F29093ACE006EF7EE /* ChoosingChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F88E29093ACE006EF7EE /* ChoosingChallengeView.swift */; };
+		2AA2F89529093BFD006EF7EE /* ChallengeCardTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2F89429093BFD006EF7EE /* ChallengeCardTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +36,14 @@
 		15912DA12908789A00CC57B1 /* ShapeshifterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeshifterView.swift; sourceTree = "<group>"; };
 		25169AFE290684C500620779 /* StepOutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepOutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25169B01290684C500620779 /* StepOutProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOutProjectApp.swift; sourceTree = "<group>"; };
-		25169B03290684C500620779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25169B05290684C500620779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25169B07290684C500620779 /* StepOutProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepOutProject.entitlements; sourceTree = "<group>"; };
 		25169B09290684C500620779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25169B10290684EC00620779 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		25169B122906857300620779 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		2AA2F88C29092F59006EF7EE /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		2AA2F88E29093ACE006EF7EE /* ChoosingChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingChallengeView.swift; sourceTree = "<group>"; };
+		2AA2F89429093BFD006EF7EE /* ChallengeCardTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			children = (
 				1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */,
 				15912D972907F74300CC57B1 /* Character.swift */,
+				2AA2F88C29092F59006EF7EE /* Challenge.swift */,
 				15912D992908233100CC57B1 /* Skill.swift */,
 			);
 			path = models;
@@ -106,7 +111,8 @@
 				25169B10290684EC00620779 /* WelcomeView.swift */,
 				25169B122906857300620779 /* UsernameView.swift */,
 				1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */,
-				25169B03290684C500620779 /* ContentView.swift */,
+				2AA2F88E29093ACE006EF7EE /* ChoosingChallengeView.swift */,
+				2AA2F89429093BFD006EF7EE /* ChallengeCardTemplate.swift */,
 				15912D9B290875AD00CC57B1 /* AdventurerView.swift */,
 				15912D9D2908786E00CC57B1 /* OratorView.swift */,
 				15912D9F2908788300CC57B1 /* CompanionView.swift */,
@@ -188,9 +194,11 @@
 				1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */,
 				15912DA02908788300CC57B1 /* CompanionView.swift in Sources */,
 				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
+				2AA2F89529093BFD006EF7EE /* ChallengeCardTemplate.swift in Sources */,
 				25169B132906857300620779 /* UsernameView.swift in Sources */,
 				15912D9A2908233100CC57B1 /* Skill.swift in Sources */,
-				25169B04290684C500620779 /* ContentView.swift in Sources */,
+				2AA2F88D29092F59006EF7EE /* Challenge.swift in Sources */,
+				2AA2F88F29093ACE006EF7EE /* ChoosingChallengeView.swift in Sources */,
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,
 				15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */,
 				1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */,

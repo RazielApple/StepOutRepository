@@ -21,7 +21,7 @@ struct ChoosingCharacterView: View {
             
             VStack {
                 
-                Text("Who are you ? ")
+                Text("Who are you? ")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.white)
