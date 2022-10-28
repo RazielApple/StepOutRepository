@@ -15,6 +15,8 @@
 		15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9D2908786E00CC57B1 /* OratorView.swift */; };
 		15912DA02908788300CC57B1 /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9F2908788300CC57B1 /* CompanionView.swift */; };
 		15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912DA12908789A00CC57B1 /* ShapeshifterView.swift */; };
+		15B5FC95290ABD3C0041DDBA /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC94290ABD3C0041DDBA /* CharacterView.swift */; };
+		15B5FC97290AD8B70041DDBA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC96290AD8B70041DDBA /* LoadingView.swift */; };
 		25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B01290684C500620779 /* StepOutProjectApp.swift */; };
 		25169B04290684C500620779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B03290684C500620779 /* ContentView.swift */; };
 		25169B06290684C500620779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B05290684C500620779 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		15912D9D2908786E00CC57B1 /* OratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OratorView.swift; sourceTree = "<group>"; };
 		15912D9F2908788300CC57B1 /* CompanionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionView.swift; sourceTree = "<group>"; };
 		15912DA12908789A00CC57B1 /* ShapeshifterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeshifterView.swift; sourceTree = "<group>"; };
+		15B5FC94290ABD3C0041DDBA /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterView.swift; path = ../../../../../.Trash/CharacterView.swift; sourceTree = "<group>"; };
+		15B5FC96290AD8B70041DDBA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		25169AFE290684C500620779 /* StepOutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepOutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25169B01290684C500620779 /* StepOutProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOutProjectApp.swift; sourceTree = "<group>"; };
 		25169B03290684C500620779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,11 +110,13 @@
 				25169B10290684EC00620779 /* WelcomeView.swift */,
 				25169B122906857300620779 /* UsernameView.swift */,
 				1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */,
+				15B5FC94290ABD3C0041DDBA /* CharacterView.swift */,
 				25169B03290684C500620779 /* ContentView.swift */,
 				15912D9B290875AD00CC57B1 /* AdventurerView.swift */,
 				15912D9D2908786E00CC57B1 /* OratorView.swift */,
 				15912D9F2908788300CC57B1 /* CompanionView.swift */,
 				15912DA12908789A00CC57B1 /* ShapeshifterView.swift */,
+				15B5FC96290AD8B70041DDBA /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +195,8 @@
 				15912DA02908788300CC57B1 /* CompanionView.swift in Sources */,
 				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
 				25169B132906857300620779 /* UsernameView.swift in Sources */,
+				15B5FC95290ABD3C0041DDBA /* CharacterView.swift in Sources */,
+				15B5FC97290AD8B70041DDBA /* LoadingView.swift in Sources */,
 				15912D9A2908233100CC57B1 /* Skill.swift in Sources */,
 				25169B04290684C500620779 /* ContentView.swift in Sources */,
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,

@@ -34,7 +34,7 @@ struct WelcomeView: View {
                     .background(.white)
                     .cornerRadius(40)
                     .offset(y: 250)
-                    .foregroundColor(Color("Sfondo"))
+                    .foregroundColor(Color("SfondoGradiente2"))
                     
                 }
                 
