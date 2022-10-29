@@ -11,9 +11,10 @@ struct WelcomeView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Color("Sfondo")
+                LinearGradient(gradient: Gradient(colors: [Color("SfondoGradiente1"), Color("SfondoGradiente2")]), startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
-                Image("Welcome")
+                    
+                Image("SquaresInBackground-04")
                     .padding(.bottom, 100.0)
                 VStack {
                     Text("WELCOME TO STEP OUT")
@@ -33,7 +34,7 @@ struct WelcomeView: View {
                     .background(.white)
                     .cornerRadius(40)
                     .offset(y: 250)
-                    .foregroundColor(Color("Sfondo"))
+                    .foregroundColor(Color("SfondoGradiente2"))
                     
                 }
                 
@@ -43,7 +44,7 @@ struct WelcomeView: View {
     }
 }
 
-struct WelcomeView_Previews: PreviewProvider {
+struct WelcomeView_Previews: PreviewProvider{
     static var previews: some View {
         WelcomeView()
     }

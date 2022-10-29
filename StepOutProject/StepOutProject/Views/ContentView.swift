@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //@State private var isLoading = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            
+            
             Text("Hello, world!")
+            
+            /* if isLoading{
+             SsLoadingView ()
+             }
+             
+             }.padding()
+             .onAppear{ startFakeNetworkCall()}
+             }
+             func startFakeNetworkCall (){
+             isLoading = true
+             DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: <#@MainActor @convention(block) () -> Void#>)
+             isLoading = false
+             }*/
         }
-        .padding()
     }
 }
 

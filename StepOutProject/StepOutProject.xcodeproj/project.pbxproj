@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */; };
+		1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */; };
+		15912D982907F74300CC57B1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D972907F74300CC57B1 /* Character.swift */; };
+		15912D9A2908233100CC57B1 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D992908233100CC57B1 /* Skill.swift */; };
+		15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9B290875AD00CC57B1 /* AdventurerView.swift */; };
+		15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9D2908786E00CC57B1 /* OratorView.swift */; };
+		15912DA02908788300CC57B1 /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9F2908788300CC57B1 /* CompanionView.swift */; };
+		15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912DA12908789A00CC57B1 /* ShapeshifterView.swift */; };
+		15B5FC99290BD87D0041DDBA /* AudacityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC98290BD87D0041DDBA /* AudacityCardView.swift */; };
+		15B5FC9B290BDB610041DDBA /* ChoosingChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC9A290BDB610041DDBA /* ChoosingChallengeView.swift */; };
+		15B5FC9D290BDD730041DDBA /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC9C290BDD730041DDBA /* Challenge.swift */; };
+		15B5FC9F290BEBC40041DDBA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FC9E290BEBC40041DDBA /* LoadingView.swift */; };
+		15B5FCA6290C1CDC0041DDBA /* PublicSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FCA5290C1CDC0041DDBA /* PublicSCardView.swift */; };
+		15B5FCA8290C21710041DDBA /* SociabilityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5FCA7290C21710041DDBA /* SociabilityCardView.swift */; };
 		25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B01290684C500620779 /* StepOutProjectApp.swift */; };
 		25169B04290684C500620779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B03290684C500620779 /* ContentView.swift */; };
 		25169B06290684C500620779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B05290684C500620779 /* Assets.xcassets */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
+		1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingCharacterView.swift; sourceTree = "<group>"; };
+		15912D972907F74300CC57B1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		15912D992908233100CC57B1 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		15912D9B290875AD00CC57B1 /* AdventurerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventurerView.swift; sourceTree = "<group>"; };
+		15912D9D2908786E00CC57B1 /* OratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OratorView.swift; sourceTree = "<group>"; };
+		15912D9F2908788300CC57B1 /* CompanionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionView.swift; sourceTree = "<group>"; };
+		15912DA12908789A00CC57B1 /* ShapeshifterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeshifterView.swift; sourceTree = "<group>"; };
+		15B5FC98290BD87D0041DDBA /* AudacityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudacityCardView.swift; sourceTree = "<group>"; };
+		15B5FC9A290BDB610041DDBA /* ChoosingChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingChallengeView.swift; sourceTree = "<group>"; };
+		15B5FC9C290BDD730041DDBA /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		15B5FC9E290BEBC40041DDBA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		15B5FCA5290C1CDC0041DDBA /* PublicSCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicSCardView.swift; sourceTree = "<group>"; };
+		15B5FCA7290C21710041DDBA /* SociabilityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociabilityCardView.swift; sourceTree = "<group>"; };
 		25169AFE290684C500620779 /* StepOutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepOutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25169B01290684C500620779 /* StepOutProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOutProjectApp.swift; sourceTree = "<group>"; };
 		25169B03290684C500620779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +65,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1511C0282906CCC0001FB3C1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */,
+				15912D972907F74300CC57B1 /* Character.swift */,
+				15912D992908233100CC57B1 /* Skill.swift */,
+				15B5FC9C290BDD730041DDBA /* Challenge.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		15B5FCA2290C1C400041DDBA /* CharactersViews */ = {
+			isa = PBXGroup;
+			children = (
+				15912D9B290875AD00CC57B1 /* AdventurerView.swift */,
+				15912D9D2908786E00CC57B1 /* OratorView.swift */,
+				15912D9F2908788300CC57B1 /* CompanionView.swift */,
+				15912DA12908789A00CC57B1 /* ShapeshifterView.swift */,
+			);
+			path = CharactersViews;
+			sourceTree = "<group>";
+		};
+		15B5FCA3290C1C7F0041DDBA /* StartingViews */ = {
+			isa = PBXGroup;
+			children = (
+				25169B10290684EC00620779 /* WelcomeView.swift */,
+				25169B122906857300620779 /* UsernameView.swift */,
+				1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */,
+			);
+			path = StartingViews;
+			sourceTree = "<group>";
+		};
+		15B5FCA4290C1CA40041DDBA /* ChallengesViews */ = {
+			isa = PBXGroup;
+			children = (
+				15B5FC98290BD87D0041DDBA /* AudacityCardView.swift */,
+				15B5FC9A290BDB610041DDBA /* ChoosingChallengeView.swift */,
+				15B5FCA5290C1CDC0041DDBA /* PublicSCardView.swift */,
+				15B5FCA7290C21710041DDBA /* SociabilityCardView.swift */,
+			);
+			path = ChallengesViews;
+			sourceTree = "<group>";
+		};
 		25169AF5290684C500620779 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				25169B01290684C500620779 /* StepOutProjectApp.swift */,
+				1511C0282906CCC0001FB3C1 /* models */,
 				2A38388F2906861200CFA67C /* Views */,
 				25169B05290684C500620779 /* Assets.xcassets */,
 				25169B07290684C500620779 /* StepOutProject.entitlements */,
@@ -76,9 +148,11 @@
 		2A38388F2906861200CFA67C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				25169B10290684EC00620779 /* WelcomeView.swift */,
-				25169B122906857300620779 /* UsernameView.swift */,
+				15B5FCA4290C1CA40041DDBA /* ChallengesViews */,
+				15B5FCA3290C1C7F0041DDBA /* StartingViews */,
+				15B5FCA2290C1C400041DDBA /* CharactersViews */,
 				25169B03290684C500620779 /* ContentView.swift */,
+				15B5FC9E290BEBC40041DDBA /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,10 +227,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */,
+				15912DA02908788300CC57B1 /* CompanionView.swift in Sources */,
+				15B5FCA8290C21710041DDBA /* SociabilityCardView.swift in Sources */,
+				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
+				15B5FC99290BD87D0041DDBA /* AudacityCardView.swift in Sources */,
+				15B5FC9D290BDD730041DDBA /* Challenge.swift in Sources */,
 				25169B132906857300620779 /* UsernameView.swift in Sources */,
+				15912D9A2908233100CC57B1 /* Skill.swift in Sources */,
 				25169B04290684C500620779 /* ContentView.swift in Sources */,
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,
+				15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */,
+				15B5FCA6290C1CDC0041DDBA /* PublicSCardView.swift in Sources */,
+				1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */,
+				15B5FC9F290BEBC40041DDBA /* LoadingView.swift in Sources */,
+				15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */,
 				25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */,
+				15B5FC9B290BDB610041DDBA /* ChoosingChallengeView.swift in Sources */,
+				15912D982907F74300CC57B1 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
