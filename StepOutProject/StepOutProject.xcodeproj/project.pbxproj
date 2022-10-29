@@ -27,6 +27,8 @@
 		25169B0A290684C500620779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B09290684C500620779 /* Preview Assets.xcassets */; };
 		25169B11290684EC00620779 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B10290684EC00620779 /* WelcomeView.swift */; };
 		25169B132906857300620779 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B122906857300620779 /* UsernameView.swift */; };
+		25ACE849290DA16300AA1601 /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ACE848290DA16300AA1601 /* CoreDataBootCamp.swift */; };
+		25ACE84C290DA1D800AA1601 /* UserContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25ACE84A290DA1D800AA1601 /* UserContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		25169B09290684C500620779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25169B10290684EC00620779 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		25169B122906857300620779 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		25ACE848290DA16300AA1601 /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
+		25ACE84B290DA1D800AA1601 /* UserContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		25169AF5290684C500620779 = {
 			isa = PBXGroup;
 			children = (
+				25ACE84A290DA1D800AA1601 /* UserContainer.xcdatamodeld */,
+				25ACE848290DA16300AA1601 /* CoreDataBootCamp.swift */,
 				25169B00290684C500620779 /* StepOutProject */,
 				25169AFF290684C500620779 /* Products */,
 			);
@@ -239,10 +245,12 @@
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,
 				15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */,
 				15B5FCA6290C1CDC0041DDBA /* PublicSCardView.swift in Sources */,
+				25ACE84C290DA1D800AA1601 /* UserContainer.xcdatamodeld in Sources */,
 				1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */,
 				15B5FC9F290BEBC40041DDBA /* LoadingView.swift in Sources */,
 				15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */,
 				25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */,
+				25ACE849290DA16300AA1601 /* CoreDataBootCamp.swift in Sources */,
 				15B5FC9B290BDB610041DDBA /* ChoosingChallengeView.swift in Sources */,
 				15912D982907F74300CC57B1 /* Character.swift in Sources */,
 			);
@@ -458,6 +466,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25ACE84A290DA1D800AA1601 /* UserContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25ACE84B290DA1D800AA1601 /* UserContainer.xcdatamodel */,
+			);
+			currentVersion = 25ACE84B290DA1D800AA1601 /* UserContainer.xcdatamodel */;
+			path = UserContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 25169AF6290684C500620779 /* Project object */;
 }

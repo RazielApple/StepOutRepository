@@ -7,17 +7,15 @@
 
 import Foundation
 
-struct Challenge: Identifiable {
-    var id: UUID = UUID()
-    let x: Int
-    let offset: CGFloat
+struct Challenge {
     let name: String
     let image: String
-    let rectangle: String
     let description: String
     let time: Int
     let xp: Int
-    let point: Int
-    let symbol: String
+    let audacityPoints: Int
+    let psPoints: Int
+    let sociabilityPoints: Int
+    let type: String //audacity, sociability, public speaking
 
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="audacityPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="avatarImg" optional="YES" attributeType="String"/>
+        <attribute name="psPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sociabilityPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="xpLvl" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="xpPoints" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
