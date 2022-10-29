@@ -42,6 +42,7 @@ struct UsernameView: View {
                             .foregroundColor(.white)
                             .opacity(0.3)
                     
+                
                         
                         
                 TextField("", text: $textfieldText)
