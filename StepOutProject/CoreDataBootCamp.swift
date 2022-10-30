@@ -11,6 +11,7 @@ class CoreDataViewModel: ObservableObject{
     let container: NSPersistentContainer
     @Published var savedEntities: [UserEntity] = []
     
+    
     init(){
         container = NSPersistentContainer(name: "UserContainer")
         container.loadPersistentStores { (description, error) in
@@ -38,6 +39,15 @@ class CoreDataViewModel: ObservableObject{
         let newUser = UserEntity(context: container.viewContext)
         newUser.username = text
         saveData()
+    }
+    
+    
+    func deleteUser(indexSet: IndexSet) {
+        guard let index = indexSet.first else { return }
+        let entity = savedEntities[index]
+        container.viewContext.delete(entity)
+        saveData()
+        
     }
     
     

@@ -8,27 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @StateObject var vm = CoreDataViewModel()
+
     //@State private var isLoading = false
     var body: some View {
         VStack {
             
             
-            Text("Hello, world!")
             
-            /* if isLoading{
-             SsLoadingView ()
-             }
-             
-             }.padding()
-             .onAppear{ startFakeNetworkCall()}
-             }
-             func startFakeNetworkCall (){
-             isLoading = true
-             DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: <#@MainActor @convention(block) () -> Void#>)
-             isLoading = false
-             }*/
-        }
+                List{
+                    ForEach(vm.savedEntities){ entity in
+                        Text(entity.username ?? "marinella")
+                            .foregroundColor(.white)
+                            
+                    }.onDelete(perform: vm.deleteUser)
+                }
+            }
     }
 }
 

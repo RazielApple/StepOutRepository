@@ -9,7 +9,6 @@ import Foundation
 
 struct Challenge {
     let name: String
-    let image: String
     let description: String
     let time: Int
     let xp: Int

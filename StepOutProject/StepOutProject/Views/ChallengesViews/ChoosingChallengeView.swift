@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ChoosingChallengeView: View {
+    @StateObject var vm = CoreDataViewModel()
+   
 
     
     var body: some View {
@@ -36,12 +38,20 @@ Circle()
                     VStack {
                         HStack{
                             Spacer()
-                            Text("marinella")
-                                .foregroundColor(.white)
+                            ForEach(vm.savedEntities){ entity in
+                                Text(entity.username ?? "marinella")
+                                    .foregroundColor(.white)
+                                    
+                            }
                             Spacer()
                             Image("SHIFT")
                             Spacer()
                         }
+                        
+                        
+
+
+
 
 
 
@@ -52,7 +62,7 @@ Circle()
                             RoundedRectangle(cornerRadius: 50)
                                 .foregroundColor(Color("ColorLevel"))
                                 .frame(width: 20, height: 20)
-
+                                
                         }
 
 

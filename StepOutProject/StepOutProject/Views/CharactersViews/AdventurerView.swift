@@ -76,7 +76,7 @@ struct AdventurerView: View {
                     }
                    
                     
-                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                    NavigationLink(destination: ChoosingChallengeView().navigationBarBackButtonHidden(true)) {
                         Text("Choose Me!")
                             .font(.title3)
                             .fontWeight(.bold)
