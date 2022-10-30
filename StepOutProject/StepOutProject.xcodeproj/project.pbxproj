@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */; };
 		1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */; };
+		153A854A290E805F00A5A569 /* TesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A8549290E805F00A5A569 /* TesterView.swift */; };
 		15912D982907F74300CC57B1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D972907F74300CC57B1 /* Character.swift */; };
 		15912D9A2908233100CC57B1 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D992908233100CC57B1 /* Skill.swift */; };
 		15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15912D9B290875AD00CC57B1 /* AdventurerView.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		1511C0292906CCDE001FB3C1 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		1511C02F2907F104001FB3C1 /* ChoosingCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingCharacterView.swift; sourceTree = "<group>"; };
+		153A8549290E805F00A5A569 /* TesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterView.swift; sourceTree = "<group>"; };
 		15912D972907F74300CC57B1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		15912D992908233100CC57B1 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		15912D9B290875AD00CC57B1 /* AdventurerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventurerView.swift; sourceTree = "<group>"; };
@@ -100,10 +102,11 @@
 		15B5FCA4290C1CA40041DDBA /* ChallengesViews */ = {
 			isa = PBXGroup;
 			children = (
-				15B5FC98290BD87D0041DDBA /* AudacityCardView.swift */,
 				15B5FC9A290BDB610041DDBA /* ChoosingChallengeView.swift */,
+				15B5FC98290BD87D0041DDBA /* AudacityCardView.swift */,
 				15B5FCA5290C1CDC0041DDBA /* PublicSCardView.swift */,
 				15B5FCA7290C21710041DDBA /* SociabilityCardView.swift */,
+				153A8549290E805F00A5A569 /* TesterView.swift */,
 			);
 			path = ChallengesViews;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			files = (
 				1511C0302907F104001FB3C1 /* ChoosingCharacterView.swift in Sources */,
 				15912DA02908788300CC57B1 /* CompanionView.swift in Sources */,
+				153A854A290E805F00A5A569 /* TesterView.swift in Sources */,
 				15B5FCA8290C21710041DDBA /* SociabilityCardView.swift in Sources */,
 				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
 				15B5FC99290BD87D0041DDBA /* AudacityCardView.swift in Sources */,
