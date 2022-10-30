@@ -27,6 +27,9 @@
 		25169B0A290684C500620779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B09290684C500620779 /* Preview Assets.xcassets */; };
 		25169B11290684EC00620779 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B10290684EC00620779 /* WelcomeView.swift */; };
 		25169B132906857300620779 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B122906857300620779 /* UsernameView.swift */; };
+		2A0B5C45290D79590030DB19 /* PublicWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C44290D79590030DB19 /* PublicWDView.swift */; };
+		2A0B5C47290E73570030DB19 /* SociabilityWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C46290E73570030DB19 /* SociabilityWDView.swift */; };
+		2A0B5C49290E744B0030DB19 /* AudacityWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C48290E744B0030DB19 /* AudacityWDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		25169B09290684C500620779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25169B10290684EC00620779 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		25169B122906857300620779 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		2A0B5C44290D79590030DB19 /* PublicWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicWDView.swift; sourceTree = "<group>"; };
+		2A0B5C46290E73570030DB19 /* SociabilityWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociabilityWDView.swift; sourceTree = "<group>"; };
+		2A0B5C48290E744B0030DB19 /* AudacityWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudacityWDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				15B5FC9A290BDB610041DDBA /* ChoosingChallengeView.swift */,
 				15B5FCA5290C1CDC0041DDBA /* PublicSCardView.swift */,
 				15B5FCA7290C21710041DDBA /* SociabilityCardView.swift */,
+				2A0B5C44290D79590030DB19 /* PublicWDView.swift */,
+				2A0B5C46290E73570030DB19 /* SociabilityWDView.swift */,
+				2A0B5C48290E744B0030DB19 /* AudacityWDView.swift */,
 			);
 			path = ChallengesViews;
 			sourceTree = "<group>";
@@ -233,15 +242,18 @@
 				15912D9E2908786E00CC57B1 /* OratorView.swift in Sources */,
 				15B5FC99290BD87D0041DDBA /* AudacityCardView.swift in Sources */,
 				15B5FC9D290BDD730041DDBA /* Challenge.swift in Sources */,
+				2A0B5C49290E744B0030DB19 /* AudacityWDView.swift in Sources */,
 				25169B132906857300620779 /* UsernameView.swift in Sources */,
 				15912D9A2908233100CC57B1 /* Skill.swift in Sources */,
 				25169B04290684C500620779 /* ContentView.swift in Sources */,
 				25169B11290684EC00620779 /* WelcomeView.swift in Sources */,
 				15912D9C290875AD00CC57B1 /* AdventurerView.swift in Sources */,
 				15B5FCA6290C1CDC0041DDBA /* PublicSCardView.swift in Sources */,
+				2A0B5C47290E73570030DB19 /* SociabilityWDView.swift in Sources */,
 				1511C02A2906CCDE001FB3C1 /* KeyboardHandler.swift in Sources */,
 				15B5FC9F290BEBC40041DDBA /* LoadingView.swift in Sources */,
 				15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */,
+				2A0B5C45290D79590030DB19 /* PublicWDView.swift in Sources */,
 				25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */,
 				15B5FC9B290BDB610041DDBA /* ChoosingChallengeView.swift in Sources */,
 				15912D982907F74300CC57B1 /* Character.swift in Sources */,
