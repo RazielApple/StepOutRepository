@@ -34,7 +34,7 @@ struct ShapeshifterView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(.white)
                                     
-                                    Text("You still don't know who you are...or who you can become!")
+                                    Text("I still don't know who I am...or who I can become!")
                                         .font(.title)
                                         .foregroundColor(.white)
                                         .multilineTextAlignment(.center)
@@ -76,7 +76,7 @@ struct ShapeshifterView: View {
                                    
                                     
                                   
-                                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 3).navigationBarBackButtonHidden(true)) {
                                         Text("Choose Me!")
                                             .font(.title3)
                                             .fontWeight(.bold)

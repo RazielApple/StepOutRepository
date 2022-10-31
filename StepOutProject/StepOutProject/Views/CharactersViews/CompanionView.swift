@@ -33,7 +33,7 @@ struct CompanionView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(.white)
                                 
-                                Text("Doesn't matter where you are...you always find a way to make friends!")
+                                Text("Doesn't matter where I am...I always find a way to make friends!")
                                     .font(.title)
                                     .foregroundColor(.white)
                                     .multilineTextAlignment(.center)
@@ -77,7 +77,7 @@ struct CompanionView: View {
                                 
                               
                                 
-                                NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                                NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 2).navigationBarBackButtonHidden(true)) {
                                     Text("Choose Me!")
                                         .font(.title3)
                                         .fontWeight(.bold)

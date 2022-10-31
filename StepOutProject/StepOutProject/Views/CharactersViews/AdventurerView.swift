@@ -33,7 +33,7 @@ struct AdventurerView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                     
-                    Text("You don't fear the unknown! You're always ready to face new adventures")
+                    Text("I don't fear the unknown! I'm always ready to face new adventures")
                         .font(.title)
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
@@ -76,7 +76,7 @@ struct AdventurerView: View {
                     }
                    
                     
-                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 0).navigationBarBackButtonHidden(true)) {
                         Text("Choose Me!")
                             .font(.title3)
                             .fontWeight(.bold)
