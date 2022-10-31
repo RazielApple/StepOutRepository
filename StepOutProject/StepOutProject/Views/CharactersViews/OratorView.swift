@@ -33,7 +33,7 @@ struct OratorView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
                             
-                            Text("People love to listen to you! You always choose the right words")
+                            Text("People love to listen to me! I always choose the right words")
                                 .font(.title)
                                 .foregroundColor(.white)
                                 .multilineTextAlignment(.center)
@@ -75,7 +75,7 @@ struct OratorView: View {
                             }
                            
                             
-                            NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                            NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 1).navigationBarBackButtonHidden(true)) {
                                 Text("Choose Me!")
                                     .font(.title3)
                                     .fontWeight(.bold)

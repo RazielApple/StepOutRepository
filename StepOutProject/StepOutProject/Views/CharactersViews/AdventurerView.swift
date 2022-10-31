@@ -33,7 +33,7 @@ struct AdventurerView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                     
-                    Text("You don't fear the unknown! You're always ready to face new adventures")
+                    Text("I don't fear the unknown! I'm always ready to face new adventures")
                         .font(.title)
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
@@ -57,11 +57,11 @@ struct AdventurerView: View {
                             
                             Rectangle()
                                 .foregroundColor(.white)
-                                .frame(width: 241, height: 21)
+                                .frame(width: 300, height: 21)
                                 .cornerRadius(10)
                                 .overlay(Rectangle ()
                                     .foregroundColor(Color(item.color))
-                                    .frame(width: levelBarWidth(baseWidth: 2.41, skillpoints: item.points)
+                                    .frame(width: levelBarWidth(baseWidth: 3, skillpoints: item.points)
                                         )
                                         .cornerRadius(10),alignment: .leading)
                             
@@ -76,7 +76,7 @@ struct AdventurerView: View {
                     }
                    
                     
-                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 0).navigationBarBackButtonHidden(true)) {
                         Text("Choose Me!")
                             .font(.title3)
                             .fontWeight(.bold)

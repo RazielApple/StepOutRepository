@@ -34,7 +34,7 @@ struct ShapeshifterView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(.white)
                                     
-                                    Text("You still don't know who you are...or who you can become!")
+                                    Text("I still don't know who I am...or who I can become!")
                                         .font(.title)
                                         .foregroundColor(.white)
                                         .multilineTextAlignment(.center)
@@ -59,11 +59,11 @@ struct ShapeshifterView: View {
                                             
                                             Rectangle()
                                                 .foregroundColor(.white)
-                                                .frame(width: 241, height: 21)
+                                                .frame(width: 300, height: 21)
                                                 .cornerRadius(10)
                                                 .overlay(Rectangle ()
                                                     .foregroundColor(Color(item.color))
-                                                    .frame(width: levelBarWidth(baseWidth: 2.41, skillpoints: item.points)
+                                                    .frame(width: levelBarWidth(baseWidth: 3, skillpoints: item.points)
                                                         )
                                                         .cornerRadius(10),alignment: .leading)
                                             
@@ -76,7 +76,7 @@ struct ShapeshifterView: View {
                                    
                                     
                                   
-                                    NavigationLink(destination: ContentView().navigationBarBackButtonHidden(true)) {
+                                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 3).navigationBarBackButtonHidden(true)) {
                                         Text("Choose Me!")
                                             .font(.title3)
                                             .fontWeight(.bold)

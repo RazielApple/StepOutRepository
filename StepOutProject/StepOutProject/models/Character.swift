@@ -11,8 +11,8 @@ struct Character: Identifiable {
     
     var id: UUID = UUID()
     let name: String
-    let destription: String
     let avatarImage: String
+    let abbreviazione: String
     let levelAudacity: Int
     let levelPublicSpeaching: Int
     let levelSociability: Int
