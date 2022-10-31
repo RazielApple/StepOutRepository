@@ -55,26 +55,17 @@ struct UsernameView: View {
                     
                 }.padding(.bottom, keyboardHandler.keyboardHeight)
                
-//                NavigationLink("Go", destination: ChoosingCharacterView().navigationBarBackButtonHidden(true))
-//
-//                    .frame(width: 50)
-//                    .font(.title2)
-//                    .fontWeight(.heavy)
-//
-//                    .cornerRadius(40)
-//                    .offset(x: 130, y:285)
-//                    .foregroundColor(.white)
+                NavigationLink("Go", destination: ChoosingCharacterView().navigationBarBackButtonHidden(true))
+
+                    .frame(width: 50)
+                    .font(.title2)
+                    .fontWeight(.heavy)
+
+                    .cornerRadius(40)
+                    .offset(x: 130, y:285)
+                    .foregroundColor(.white)
                
-                NavigationLink {
-                    ChoosingCharacterView()
-                } label: {
-                    
-                    Image(systemName: "control")
-                        .rotationEffect(.degrees(90))
-                        .offset(x: 120, y: 286)
-                        .foregroundColor(.white)
-                        .fontWeight(.heavy)
-                }
+
             }
         }
     }

@@ -10,9 +10,9 @@ import SwiftUI
 struct ChoosingChallengeView: View {
     @State var indicatoreCharacter: Int = 0
     @State private var challenges: [Challenge] = [
-        Challenge(x: 0, name: "AUDACITY BOOST CHALLENGE", image: "Audacity", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", rectangle: "RettangoloA", time: 5, xp: 100, point: 5, symbol: "flame.fill"),
-        Challenge(x: 1, name: "PUBLIC SPEAKING BOOST CHALLENGE", image: "Public", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", rectangle: "RettangoloP", time: 5, xp: 100, point: 5, symbol: "megaphone.fill"),
-        Challenge(x: 2,name: "SOCIABILITY BOOST CHALLENGE", image: "Sociability", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", rectangle: "RettangoloS", time: 5, xp: 100, point: 5, symbol: "person.2.fill")
+        Challenge(x: 0, name: "AUDACITY BOOST CHALLENGE", image: "Audacity", rectangle: "RettangoloA", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", time: 5, xp: 100, point: 5, symbol: "flame.fill"),
+        Challenge(x: 1, name: "PUBLIC SPEAKING BOOST CHALLENGE", image: "Public", rectangle: "RettangoloP", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", time: 5, xp: 100, point: 5, symbol: "megaphone.fill"),
+        Challenge(x: 2,name: "SOCIABILITY BOOST CHALLENGE", image: "Sociability", rectangle: "RettangoloS", description: "Your challenge is simple: walk backwards! And do what you want but it’s not important because i need to fill text. Easy peasy... ", time: 5, xp: 100, point: 5, symbol: "person.2.fill")
         
     ]
     @State private var snappedItem = 0.0

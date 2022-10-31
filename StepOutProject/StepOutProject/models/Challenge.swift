@@ -10,7 +10,6 @@ import Foundation
 struct Challenge: Identifiable {
     var id: UUID = UUID()
     let x: Int
-    let offset: CGFloat
     let name: String
     let image: String
     let rectangle: String
