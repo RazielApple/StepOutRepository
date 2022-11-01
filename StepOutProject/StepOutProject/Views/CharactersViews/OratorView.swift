@@ -74,7 +74,6 @@ struct OratorView: View {
                                 
                             }
                            
-                            
                             NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 1).navigationBarBackButtonHidden(true)) {
                                 Text("Choose Me!")
                                     .font(.title3)
@@ -83,6 +82,7 @@ struct OratorView: View {
                                 .frame(width: 200, height: 60)
                                 .background(LinearGradient(gradient: Gradient(colors: [Color("ButtonGradiente2"), Color("ButtonGradiente1")]), startPoint: .leading, endPoint: .trailing))
                                 .cornerRadius(10)
+                                .padding(.top, 45)
                             }
                             
                             
