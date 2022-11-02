@@ -4,7 +4,7 @@
 //
 //  Created by Fabio Barbato on 26/10/22.
 //
-import SwiftUI
+/*import SwiftUI
 import CoreData
 
 class CoreDataViewModel: ObservableObject{
@@ -118,4 +118,4 @@ class CoreDataViewModel: ObservableObject{
 //    static var previews: some View {
 //        CoreDataBootCamp()
 //    }
-//}
+//}*/
