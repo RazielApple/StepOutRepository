@@ -31,6 +31,7 @@
 		25169B0A290684C500620779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25169B09290684C500620779 /* Preview Assets.xcassets */; };
 		25169B11290684EC00620779 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B10290684EC00620779 /* WelcomeView.swift */; };
 		25169B132906857300620779 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25169B122906857300620779 /* UsernameView.swift */; };
+		25B6B8372911F87B00260CA9 /* SeeYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6B8362911F87B00260CA9 /* SeeYouView.swift */; };
 		2A0B5C45290D79590030DB19 /* PublicWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C44290D79590030DB19 /* PublicWDView.swift */; };
 		2A0B5C47290E73570030DB19 /* SociabilityWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C46290E73570030DB19 /* SociabilityWDView.swift */; };
 		2A0B5C49290E744B0030DB19 /* AudacityWDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0B5C48290E744B0030DB19 /* AudacityWDView.swift */; };
@@ -63,6 +64,7 @@
 		25169B09290684C500620779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25169B10290684EC00620779 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		25169B122906857300620779 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		25B6B8362911F87B00260CA9 /* SeeYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeeYouView.swift; path = ChallengesViews/SeeYouView.swift; sourceTree = "<group>"; };
 		2A0B5C44290D79590030DB19 /* PublicWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicWDView.swift; sourceTree = "<group>"; };
 		2A0B5C46290E73570030DB19 /* SociabilityWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociabilityWDView.swift; sourceTree = "<group>"; };
 		2A0B5C48290E744B0030DB19 /* AudacityWDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudacityWDView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		2A38388F2906861200CFA67C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				25B6B8362911F87B00260CA9 /* SeeYouView.swift */,
 				15B5FCA4290C1CA40041DDBA /* ChallengesViews */,
 				15B5FCA3290C1C7F0041DDBA /* StartingViews */,
 				15B5FCA2290C1C400041DDBA /* CharactersViews */,
@@ -270,6 +273,7 @@
 				15992470291141B400466E7D /* TimerProgress.swift in Sources */,
 				15912DA22908789A00CC57B1 /* ShapeshifterView.swift in Sources */,
 				2A0B5C45290D79590030DB19 /* PublicWDView.swift in Sources */,
+				25B6B8372911F87B00260CA9 /* SeeYouView.swift in Sources */,
 				25169B02290684C500620779 /* StepOutProjectApp.swift in Sources */,
 				15B5FC9B290BDB610041DDBA /* ChoosingChallengeView.swift in Sources */,
 				15912D982907F74300CC57B1 /* Character.swift in Sources */,

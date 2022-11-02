@@ -77,7 +77,7 @@ struct CompanionView: View {
                                 
                               
                                 
-                                NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 2).navigationBarBackButtonHidden(true)) {
+                                NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 2, skills: skills).navigationBarBackButtonHidden(true)) {
                                     Text("Choose Me!")
                                         .font(.title3)
                                         .fontWeight(.bold)
@@ -97,8 +97,8 @@ struct CompanionView: View {
             }
 
 
-struct CompanionView_Previews: PreviewProvider {
-    static var previews: some View {
-        CompanionView()
-    }
-}
+//struct CompanionView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CompanionView()
+//    }
+//}

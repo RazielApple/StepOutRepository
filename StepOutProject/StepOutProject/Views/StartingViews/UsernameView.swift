@@ -9,8 +9,10 @@ import SwiftUI
 
 struct UsernameView: View {
     
-    @State private var textfieldText: String = ""
+    @State private var username: String = ""
     @StateObject private var keyboardHandler = KeyboardHandler()
+    
+    
 
     
     var body: some View {
@@ -47,32 +49,40 @@ struct UsernameView: View {
                         
                             
                             
-                    TextField("", text: $textfieldText)
+                    TextField("", text: $username)
                         .offset(x: 101, y:210)
                         .foregroundColor(.white)
                         .submitLabel(.go)
-                    
+
                     
                 }.padding(.bottom, keyboardHandler.keyboardHeight)
-               
-                NavigationLink("Go", destination: ChoosingCharacterView().navigationBarBackButtonHidden(true))
+                
 
-                    .frame(width: 50)
+                NavigationLink(destination: ChoosingCharacterView().navigationBarBackButtonHidden(true)) {
+                    Text("Go")
+                }   .frame(width: 50)
                     .font(.title2)
                     .fontWeight(.heavy)
 
                     .cornerRadius(40)
                     .offset(x: 130, y:285)
                     .foregroundColor(.white)
-               
+                .simultaneousGesture(TapGesture().onEnded{
+                    vm.addUser(text: username)
+                })
+                
+                    
 
             }
+            
         }
+
     }
+    
 }
 
-struct UsernameView_Previews: PreviewProvider {
-    static var previews: some View {
-        UsernameView()
-    }
-}
+//struct UsernameView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        UsernameView()
+//    }
+//}

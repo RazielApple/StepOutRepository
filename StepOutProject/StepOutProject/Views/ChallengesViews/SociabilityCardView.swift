@@ -69,8 +69,8 @@ struct SociabilityCardView: View {
     }
 }
 
-struct SociabilityCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        SociabilityCardView()
-    }
-}
+//struct SociabilityCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SociabilityCardView()
+//    }
+//}

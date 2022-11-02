@@ -71,8 +71,8 @@ struct PublicSCardView: View {
                             }
 
 
-struct PublicSCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        PublicSCardView()
-    }
-}
+//struct PublicSCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PublicSCardView()
+//    }
+//}

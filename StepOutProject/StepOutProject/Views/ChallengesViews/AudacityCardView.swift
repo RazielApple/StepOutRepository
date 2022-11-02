@@ -71,8 +71,8 @@ struct AudacityCardView: View {
                                 }
                             }
                         }
-                        struct Challenge1_Previews: PreviewProvider {
-                            static var previews: some View {
-                                AudacityCardView()
-                            }
-                        }
+//                        struct Challenge1_Previews: PreviewProvider {
+//                            static var previews: some View {
+//                                AudacityCardView()
+//                            }
+//                        }

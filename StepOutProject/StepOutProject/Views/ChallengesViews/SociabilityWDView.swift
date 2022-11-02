@@ -109,8 +109,8 @@ struct SociabilityWDView: View {
     }
 }
 
-struct SociabilityWDView_Previews: PreviewProvider {
-    static var previews: some View {
-        SociabilityWDView()
-    }
-}
+//struct SociabilityWDView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SociabilityWDView()
+//    }
+//}
