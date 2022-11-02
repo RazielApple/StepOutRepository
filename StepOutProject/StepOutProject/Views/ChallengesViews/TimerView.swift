@@ -9,13 +9,16 @@ import SwiftUI
 
 struct TimerView: View {
     @StateObject var timerProgress: TimerProgress = .init()
-    
+    @State var color: String = "AudacityColor"
+    @State var description: String = "Your challenge is simple: dance with strangers! In particularly, DANCE THE MACARENA! 3..2..1....GO"
+    @State var name: String = "AUDACITY BOOST CHALLENGE"
+   
     var body: some View {
         
         NavigationStack {
             ZStack {
         
-                    Color("AudacityColor")
+                    Color(color)
                         .ignoresSafeArea()
                    
                
@@ -29,7 +32,7 @@ struct TimerView: View {
                                 }
                                 
                                  
-                                Text("AUDACITY BOOST CHALLENGE")
+                        Text(name)
                                     .font(.largeTitle)
                                     .fontWeight(.heavy)
                                     .foregroundColor(Color("SfondoGradiente2"))
@@ -47,13 +50,13 @@ struct TimerView: View {
                                 .overlay(
                                 Circle()
                                     .trim(from:0, to: timerProgress.progress)
-                                    .stroke(Color("AudacityColor"), lineWidth: 15)
+                                    .stroke(Color(color), lineWidth: 15)
                                     .frame(width: 210, height: 210)
                                     
                                     )
                             
                             Circle()
-                                .foregroundColor(Color("AudacityColor"))
+                                .foregroundColor(Color(color))
                                 .frame(width: 180, height: 180)
                             
                             
@@ -86,11 +89,13 @@ struct TimerView: View {
                         HStack(spacing: 100.0) {
                             
                             Button {
-                                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                                if timerProgress.isStarted || timerProgress.isPaused {
+                                    timerProgress.stopTimer()
+                                }
                             }label: {
                                 Image(systemName:  "arrow.triangle.2.circlepath")
                                     .resizable()
-                                    .foregroundColor(Color("AudacityColor"))
+                                    .foregroundColor(Color(color))
                                     .frame(width: 45, height: 40)
                                     .background(){
                                         Rectangle()
@@ -105,15 +110,16 @@ struct TimerView: View {
                             
                             Button {
                                 if timerProgress.isStarted {
-                                    timerProgress.stopTimer()
+                                    timerProgress.pauseTimer()
                                     
-                                }else {
+                                    }else {
                                     timerProgress.startTimer()
+                                    
                                 }
                             }label: {
                                 Image(systemName:!timerProgress.isStarted ? "play.fill" : "pause.fill")
                                     .resizable()
-                                    .foregroundColor(Color("AudacityColor"))
+                                    .foregroundColor(Color(color))
                                     .frame(width: 30, height: 35)
                                     .background(){
                                         Rectangle()
@@ -126,10 +132,48 @@ struct TimerView: View {
                             }
                            
                         }
+                      Spacer()
+                        NavigationLink(destination: AudacityWDView().navigationBarBackButtonHidden(true)){
+                        Text("DONE")
+                            .font(.title)
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color(color))
+                            .background(){
+                                Rectangle()
+                                    .frame(width: 100, height: 47)
+                                    .cornerRadius(10)
+                                .foregroundColor(.white)}
+                            .opacity(timerProgress.isFinished == false ? 0 : 1)
+                            }
+                        
                          Spacer()
-                            
+                         
+                        
+                        ZStack {
+                            Rectangle()
+                                .stroke(.white, lineWidth: 5)
+                                .frame(width: 320, height: 125)
+                            .cornerRadius(10)
+                            VStack(spacing: 2.0){
+                                
+                                Text("Description")
+                                    .font(.title3)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.white)
+                                
+                                Text(description)
+                                    .font(.title3)
+                                    .fontWeight(.regular)
+                                    .multilineTextAlignment(.center)
+                                    .frame(width: 290,height: 90)
+                                    .foregroundColor(.white)
+                                    
+                                
+                            }
                         }
-                    }
+                        
+                        }
+            }
         
         }
         }

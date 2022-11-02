@@ -16,7 +16,10 @@ struct Challenge: Identifiable {
     let description: String
     let time: Int
     let xp: Int
-    let point: Int
+    var audacityPoints: Int
+    var psPoints: Int
+    var sociabilityPoints: Int
     let symbol: String
+    var type: String //audacity, sociability, publicSpeaking
 
 }

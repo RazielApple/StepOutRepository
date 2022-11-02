@@ -51,11 +51,11 @@ struct ChoosingCharacterView: View {
 
 
 
-struct ChoosingCharacterView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChoosingCharacterView()
-    }
-}
+//struct ChoosingCharacterView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ChoosingCharacterView()
+//    }
+//}
 func levelBarWidth (baseWidth: Double, skillpoints: Int) -> Double{
     return baseWidth * Double(skillpoints)
 }

@@ -76,7 +76,7 @@ struct AdventurerView: View {
                     }
                    
                     
-                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 0).navigationBarBackButtonHidden(true)) {
+                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 0, skills: skills).navigationBarBackButtonHidden(true)) {
                         Text("Choose Me!")
                             .font(.title3)
                             .fontWeight(.bold)
@@ -97,9 +97,9 @@ struct AdventurerView: View {
     }
 }
 
-struct AdventurerView_Previews: PreviewProvider {
-    static var previews: some View {
-        AdventurerView()
-    }
-}
+//struct AdventurerView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AdventurerView()
+//    }
+//}
 

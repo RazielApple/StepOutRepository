@@ -74,7 +74,7 @@ struct OratorView: View {
                                 
                             }
                            
-                            NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 1).navigationBarBackButtonHidden(true)) {
+                            NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 1,skills: skills).navigationBarBackButtonHidden(true)) {
                                 Text("Choose Me!")
                                     .font(.title3)
                                     .fontWeight(.bold)
@@ -97,8 +97,8 @@ struct OratorView: View {
     
 
 
-struct OratorView_Previews: PreviewProvider {
-    static var previews: some View {
-        OratorView()
-    }
-}
+//struct OratorView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OratorView()
+//    }
+//}

@@ -53,8 +53,8 @@ struct LoadingView: View {
     }
 
 
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoadingView()
-    }
-}
+//struct SwiftUIView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoadingView()
+//    }
+//}

@@ -76,7 +76,7 @@ struct ShapeshifterView: View {
                                    
                                     
                                   
-                                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 3).navigationBarBackButtonHidden(true)) {
+                                    NavigationLink(destination: ChoosingChallengeView(indicatoreCharacter: 3,skills: skills).navigationBarBackButtonHidden(true)) {
                                         Text("Choose Me!")
                                             .font(.title3)
                                             .fontWeight(.bold)
@@ -97,8 +97,8 @@ struct ShapeshifterView: View {
                 }
 
 
-struct ShapeshifterView_Previews: PreviewProvider {
-    static var previews: some View {
-        ShapeshifterView()
-    }
-}
+//struct ShapeshifterView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ShapeshifterView()
+//    }
+//}
